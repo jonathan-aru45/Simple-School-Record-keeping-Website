@@ -1,0 +1,310 @@
+.container{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 200px;
+}
+.topdiv{
+background-color:  aquamarine;
+margin-left: 50px;
+margin-right: 50px;
+
+
+}
+
+body{
+  background-color: rgba(143, 36, 36, 0.853);
+  font-family: sans-serif;
+  display:flex;
+}
+
+
+
+.logoclass{
+  width:15%;
+ float:left;
+  background-color:transparent;
+ 
+
+
+}
+.headingclass{
+  margin-top: 20px;
+  width:100% ;
+  background-image: linear-gradient(rgba(217, 59, 59, 0.904), rgb(95, 9, 9));
+  float:right;
+  height:180px;
+}
+
+.Uotlogo{
+  height: 150px;
+  width: 130px;
+}
+
+#note{
+  color: white;
+
+font: bold;
+
+font-family: Arial;
+padding-top: 0px;
+
+}
+
+h1{
+color: white;
+
+font: bold;
+font-family: Arial;
+padding-top: 0px;
+}
+#infor{
+color: white;
+font-size: large;
+font: bold;
+font-family: Arial;
+padding-top: 0px;
+}
+#note{
+  color: white;
+  font-size: large;
+
+  font-family: Arial;
+  padding-top: 0px;
+  }
+
+
+
+.button{
+  font-family:Arial;
+  font-size:0.9em;
+  font-style:none;
+  color:brown;
+  padding: 15px;
+  text-decoration:none;}
+.button:link{
+ 
+  color:rgb(255, 255, 255);
+}
+.button:hover{
+  background-color:rgb(219, 75, 75);
+}
+.btn:hover{
+  background-color:rgb(219, 75, 75);
+}
+
+.formcontainer{
+  background-color: rgb(244, 150, 150);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+  overflow: hidden;
+  width:600px;
+  max-width: 100%;
+  margin-bottom: 200px;
+  margin-left:340px;
+  
+
+}
+header h3{
+  margin:0;
+ 
+}
+.form{
+  padding: 30px 40px;
+}
+
+.form-control label{
+  display: inline-block;
+  margin-bottom: 5px;
+
+}
+.form-control input{
+  border:2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  padding:10px;
+  font-family: inherit;
+  font-size: 14px;
+  width: 100%;
+
+}
+.btn{
+  background-color: #d75e5e;
+  border:2px solid #d75e5e;
+  border-radius: 4px;
+  color:#fff;
+  display:block;
+  width: 30%;
+  font-family: inherit;
+  font-size: 16px;
+  padding:10px;
+}
+.pdheader{
+background-color: #f1e9e9;
+border-bottom: 1px solid #f0f0f0;
+padding: 20px 200px;
+font-family: inherit;
+font-size: 20px;
+
+}
+.adheader{
+background-color: #f1e9e9;
+border-bottom: 1px solid #f0f0f0;
+padding: 20px 200px;
+font-family: inherit;
+font-size: 20px;
+}
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin:0;
+  padding:0;
+  width: 100%;
+  background-color: rgb(209, 187, 187);
+}
+table tr {
+  border: 1px solid rgb(255, 41, 41);
+  padding: 5px;
+}
+table th, table td {
+  padding: 10px;
+  text-align: center;
+}
+table th {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table thead {
+    display: none;
+  }
+  table tr {
+    border-bottom: 2px solid #ddd;
+    display: block;
+    margin-bottom: 10px;
+  }
+  table td {
+    border-bottom: 1px dotted #ccc;
+    display: block;
+    font-size: 13px;
+    text-align: right;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgba(129, 12, 12, 0.937);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 70px;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+  color: #e94949;
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: black;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1rem;
+  display: block;
+  padding: 0.5rem 1rem 0.5rem 3.5rem;
+  transition: all 0.3s linear;
+}
+
+.menu a:hover {
+  background: #f8a5a5;
+  color: #e94949;
+  padding-left: 5rem;
+}
+
+.menu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.show-menu {
+  height: 10rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+@media (min-width: 800px) {
+  main {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .menu {
+    height: auto;
+    display: flex;
+  }
+  .menu li{
+    display: inline;
+  }
+
+  .menu a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .menu a:hover {
+    padding: 0;
+    background: transparent;
+  }
+}
+h4{
+  color: white;
+}
+.mainy{
+  padding-right: 50px;;
+}
+
+
